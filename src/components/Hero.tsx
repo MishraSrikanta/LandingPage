@@ -88,9 +88,9 @@ export default function Hero() {
             custom={0}
             initial="hidden"
             animate="visible"
-            className="font-grotesk text-[16px] uppercase tracking-wider text-cream"
+            className="font-grotesk text-[25px] uppercase tracking-wider text-cream"
           >
-            Srikanta.dev
+            Srikanta Kumar Mishra
           </motion.span>
 
           {/* Desktop Nav */}
@@ -209,7 +209,7 @@ export default function Hero() {
               ].map((skill) => (
                 <span
                   key={skill}
-                  className="liquid-glass rounded-full px-4 py-1.5 font-mono text-[10px] uppercase tracking-wider text-cream/80"
+                  className="liquid-glass rounded-full px-4 py-1.5 font-mono text-[10px] uppercase tracking-wider text-cream/80 glow-hover cursor-pointer"
                 >
                   {skill}
                 </span>

@@ -14,9 +14,29 @@ interface Project {
 }
 
 const PROJECTS: Project[] = [
-  {
+    {
     id: '01',
     number: '01',
+    title: '...About Me...',
+    link: 'https://about-me-black-ten.vercel.app/',
+    mission: 'Know more about my journey, values, and what drives me beyond the resume.',
+    stack: ['React', 'TypeScript', 'AI UX'],
+    impact: 'Skills and story in one engaging experience',
+    accent: 'neon',
+  },
+    {
+    id: '02',
+    number: '02',
+    title: ' EvA - Enterprise App',
+    link: 'https://enterprise-software.vercel.app/',
+    mission: 'Make enterprise software development more efficient and user-friendly.',
+    stack: ['React', 'TypeScript', 'AI UX'],
+    impact: 'Make financial reasoning and market exploration faster for everyday decision-making.',
+    accent: 'neon',
+  },
+  {
+    id: '03',
+    number: '03',
     title: 'FinanceGPT',
     link: 'https://finance-gpt-nu.vercel.app/',
     mission: 'Make financial reasoning and market exploration faster for everyday decision-making.',
@@ -25,8 +45,8 @@ const PROJECTS: Project[] = [
     accent: 'neon',
   },
   {
-    id: '02',
-    number: '02',
+    id: '04',
+    number: '04',
     title: '3D Portfolio',
     link: 'https://3-d-portfolio-y8uy.vercel.app/',
     mission: 'Turn personal storytelling into a spatial, memorable interactive experience.',
@@ -35,18 +55,18 @@ const PROJECTS: Project[] = [
     accent: 'purple',
   },
   {
-    id: '03',
-    number: '03',
-    title: 'Three Particles',
-    link: 'https://three-material-examples.vercel.app/',
-    mission: 'Explore lightweight real-time visuals for expressive product surfaces.',
+    id: '05',
+    number: '05',
+    title: 'Nike Product Page',
+    link: 'https://produt-page-nike.vercel.app/',
+    mission: 'Explore Nike’s brand and product ethos through a dynamic, scroll-driven narrative.',
     stack: ['Three.js', 'Shaders', 'Performance Tuning'],
-    impact: 'Reusable visual experiments for future interfaces',
+    impact: 'Reusable visual experiments for future interfaces of any product',
     accent: 'cyan',
   },
   {
-    id: '04',
-    number: '04',
+    id: '06',
+    number: '06',
     title: 'Kawasaki Project',
     link: 'https://kawasaki-project-8ry6.vercel.app/',
     mission: 'Blend bold branding and conversion-focused UI in a modern launch page.',

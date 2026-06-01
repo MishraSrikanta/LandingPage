@@ -182,3 +182,18 @@
     border-right-color: var(--border);
   }
 }
+
+/* Glow effect for skill badges */
+.glow-hover {
+  position: relative;
+  transition: all 0.3s ease;
+
+  &:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+                 0 0 16px rgba(100, 200, 255, 0.6),
+                 0 0 24px rgba(100, 200, 255, 0.4);
+    box-shadow: 0 0 12px rgba(100, 200, 255, 0.5),
+                inset 0 0 12px rgba(100, 200, 255, 0.2);
+    color: #ffffff;
+  }
+}
