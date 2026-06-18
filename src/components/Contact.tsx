@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Mail, Link, GitBranch, Send, ArrowUpRight } from 'lucide-react';
+import { Mail, Link, GitBranch, Send, ArrowUpRight, PhoneCall } from 'lucide-react';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 36 },
@@ -12,7 +12,7 @@ const fadeUp = {
 };
 
 const SOCIAL_LINKS = [
-  { icon: Mail, label: 'Email', value: 'Srikanta Kumar Mishra', href: 'mishrasrikanta33@gmail.com', accent: '#6FFF00' },
+  { icon: Mail, label: 'Email', value: 'mishrasrikanta33@gmail.com', href: 'mishrasrikanta33@gmail.com', accent: '#6FFF00' },
   {
     icon: Link,
     label: 'LinkedIn',
@@ -20,7 +20,7 @@ const SOCIAL_LINKS = [
     href: 'https://www.linkedin.com/in/srikanta-mishra-02a838230',
     accent: '#0A66C2',
   },
-  { icon: GitBranch, label: 'GitHub', value: 'mishra-srikanta', href: '#', accent: '#b724ff' },
+  { icon: PhoneCall, label: 'Contact Number', value: '+91 9178393607', href: '#', accent: '#b724ff' },
 ];
 
 const FAQ_ITEMS = [
