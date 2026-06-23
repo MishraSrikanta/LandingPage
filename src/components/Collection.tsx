@@ -139,7 +139,7 @@ export default function Collection() {
                            ml-12 md:ml-24 lg:ml-32">
               <span className="font-condiment normal-case text-neon
                                text-[36px] sm:text-[50px] md:text-[58px] lg:text-[68px]">
-                Orbit
+                Srikanta_landing_page
               </span>{' '}
               labs
             </h2>
