@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Mail, Link, GitBranch, Send, ArrowUpRight, PhoneCall } from 'lucide-react';
+import { Mail, Link, Send, ArrowUpRight, PhoneCall } from 'lucide-react';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 36 },
