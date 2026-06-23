@@ -47,7 +47,7 @@ export default function AboutSection() {
             >
               Hello!
               <br />
-              I'm orbis
+              I'm Srikanta
             </motion.h2>
 
             {/* Cursive overlay */}
