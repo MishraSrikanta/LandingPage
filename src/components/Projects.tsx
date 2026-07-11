@@ -194,6 +194,36 @@ const PROJECTS: Project[] = [
     impact: 'Efficient restaurant workflow system',
     accent: 'neon',
   },
+  {
+    id: '19',
+    number: '19',
+    title: 'Finance Planner',
+    link: 'https://finance-planner-blond.vercel.app/',
+    mission: 'Help users plan finances with a clear, modern, and engaging experience.',
+    stack: ['React', 'TypeScript', 'UI Design'],
+    impact: 'Simplified financial planning and clearer decision-making',
+    accent: 'purple',
+  },
+  {
+    id: '20',
+    number: '20',
+    title: 'AR_VR',
+    link: 'https://ar-vr-xi.vercel.app/',
+    mission: 'Create immersive experiences that blend spatial storytelling with interactive design.',
+    stack: ['Three.js', 'WebGL', 'Immersive UX'],
+    impact: 'A polished showcase for augmented and virtual reality concepts',
+    accent: 'cyan',
+  },
+  {
+    id: '21',
+    number: '21',
+    title: 'Feather_fury',
+    link: 'https://feather-fury.vercel.app/',
+    mission: 'Deliver a bold, artistic concept with striking motion and visual identity.',
+    stack: ['React', 'Animation', 'Creative UI'],
+    impact: 'High-energy visual storytelling with memorable branding',
+    accent: 'neon',
+  },
 ];
 
 const ACCENT = {
