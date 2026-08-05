@@ -11,32 +11,109 @@ interface Project {
   stack: string[];
   impact: string;
   accent: 'neon' | 'purple' | 'cyan';
+  featured?: boolean;
 }
 
 const PROJECTS: Project[] = [
-    {
+  {
     id: '01',
     number: '01',
-    title: '...About Me...',
+    title: 'Portfolio',
     link: 'https://about-me-black-ten.vercel.app/',
-    mission: 'Know more about my journey, values, and what drives me beyond the resume.',
-    stack: ['React', 'TypeScript', 'AI UX'],
-    impact: 'Skills and story in one engaging experience',
+    mission: 'A polished portfolio experience that packages expertise, attention to detail, and storytelling into one premium interface.',
+    stack: ['React', 'TypeScript', 'Brand Design'],
+    impact: 'Premium personal brand presentation',
     accent: 'neon',
+    featured: true,
   },
-    {
+  {
     id: '02',
     number: '02',
-    title: ' EvA - Enterprise App',
-    link: 'https://enterprise-software.vercel.app/',
-    mission: 'Make enterprise software development more efficient and user-friendly.',
-    stack: ['React', 'TypeScript', 'AI UX'],
-    impact: 'Make financial reasoning and market exploration faster for everyday decision-making.',
-    accent: 'neon',
+    title: '3D Open Portfolio',
+    link: 'https://open-world-portfolio.vercel.app/',
+    mission: 'Showcase work through an immersive, atmospheric portfolio built for discovery and visual storytelling.',
+    stack: ['Three.js', 'WebGL', 'Motion'],
+    impact: 'Immersive portfolio experience',
+    accent: 'purple',
+    featured: true,
   },
   {
     id: '03',
     number: '03',
+    title: 'Finance Planner',
+    link: 'https://finance-planner-blond.vercel.app/',
+    mission: 'Turn financial planning into a cleaner, more confident decision-making workflow with thoughtful UX.',
+    stack: ['React', 'TypeScript', 'Analytics'],
+    impact: 'Simplified planning and better clarity',
+    accent: 'cyan',
+    featured: true,
+  },
+  {
+    id: '04',
+    number: '04',
+    title: 'Three Realms',
+    link: 'https://three-realms.vercel.app/',
+    mission: 'Build a cinematic multi-world experience with layered storytelling, depth, and immersive interaction.',
+    stack: ['Three.js', 'WebGL', 'Interactive Design'],
+    impact: 'Cinematic 3D storytelling interface',
+    accent: 'purple',
+    featured: true,
+  },
+  {
+    id: '05',
+    number: '05',
+    title: 'Stokio',
+    link: 'https://mystockio.vercel.app/login',
+    mission: 'A modern stock and market platform experience with a clean dashboard, strong hierarchy, and clear actionable flow.',
+    stack: ['React', 'Dashboard UX', 'Product Design'],
+    impact: 'Conversion-ready market product UX',
+    accent: 'neon',
+    featured: true,
+  },
+  {
+    id: '06',
+    number: '06',
+    title: 'Develop Site',
+    link: 'https://develop-site-neon.vercel.app/',
+    mission: 'Showcase developer tooling and resources through a premium, high-contrast visual system and fluid interface.',
+    stack: ['React', 'Tailwind CSS', 'Performance'],
+    impact: 'Modern developer brand experience',
+    accent: 'cyan',
+    featured: true,
+  },
+  {
+    id: '07',
+    number: '07',
+    title: 'Sharingan',
+    link: 'https://sharingan-psi.vercel.app/',
+    mission: 'Create a bold, immersive visual concept with cinematic motion and impact-rich storytelling.',
+    stack: ['React', 'Motion Design', 'Creative UX'],
+    impact: 'Atmospheric visual identity system',
+    accent: 'neon',
+  },
+  {
+    id: '08',
+    number: '08',
+    title: 'Image_Editor',
+    link: 'https://image-editor-mode.vercel.app/',
+    mission: 'Deliver a practical image editing experience with strong usability, polished interactions, and responsive workflows.',
+    stack: ['UI/UX', 'Product Design', 'Frontend'],
+    impact: 'Utility-first creative editing tool',
+    accent: 'cyan',
+  },
+  {
+    id: '09',
+    number: '09',
+    title: ' EvA - Enterprise App',
+    link: 'https://enterprise-software.vercel.app/',
+    mission: 'Make enterprise software development more efficient and user-friendly.',
+    stack: ['React', 'TypeScript', 'AI UX'],
+    impact: 'Workflow clarity for enterprise teams',
+    accent: 'neon',
+  },
+  {
+    id: '10',
+    number: '10',
     title: 'FinanceGPT',
     link: 'https://finance-gpt-nu.vercel.app/',
     mission: 'Make financial reasoning and market exploration faster for everyday decision-making.',
@@ -45,8 +122,8 @@ const PROJECTS: Project[] = [
     accent: 'neon',
   },
   {
-    id: '04',
-    number: '04',
+    id: '11',
+    number: '11',
     title: '3D Portfolio',
     link: 'https://3-d-portfolio-y8uy.vercel.app/',
     mission: 'Turn personal storytelling into a spatial, memorable interactive experience.',
@@ -137,16 +214,6 @@ const PROJECTS: Project[] = [
   {
     id: '13',
     number: '13',
-    title: 'Three Realms',
-    link: 'https://three-realms.vercel.app/',
-    mission: 'Build an engaging multi-dimensional experience across three distinct worlds.',
-    stack: ['Three.js', 'WebGL', 'Interactive Design'],
-    impact: 'Complex 3D storytelling interface',
-    accent: 'purple',
-  },
-  {
-    id: '14',
-    number: '14',
     title: 'World Time 3D',
     link: 'https://world-time-3-d.vercel.app/',
     mission: 'Visualize global time zones with immersive 3D globe and real-time updates.',
@@ -155,8 +222,8 @@ const PROJECTS: Project[] = [
     accent: 'cyan',
   },
   {
-    id: '15',
-    number: '15',
+    id: '14',
+    number: '14',
     title: 'Voyage Creation',
     link: 'https://vyoage-creation.vercel.app/',
     mission: 'Create immersive travel experiences and explore creative journeys worldwide.',
@@ -165,8 +232,8 @@ const PROJECTS: Project[] = [
     accent: 'neon',
   },
   {
-    id: '16',
-    number: '16',
+    id: '15',
+    number: '15',
     title: '3D Builder',
     link: 'https://builder3-d.vercel.app/',
     mission: 'Enable intuitive 3D model creation and visualization with real-time rendering.',
@@ -175,18 +242,8 @@ const PROJECTS: Project[] = [
     accent: 'purple',
   },
   {
-    id: '17',
-    number: '17',
-    title: 'Develop Site',
-    link: 'https://develop-site-neon.vercel.app/',
-    mission: 'Showcase development tools and resources with dynamic, neon-inspired design.',
-    stack: ['React', 'Tailwind CSS', 'Performance'],
-    impact: 'Modern developer resource hub',
-    accent: 'cyan',
-  },
-  {
-    id: '18',
-    number: '18',
+    id: '16',
+    number: '16',
     title: 'Restaurant Management',
     link: 'https://resturant-management.vercel.app/',
     mission: 'Streamline restaurant operations with intuitive ordering and inventory management.',
@@ -195,18 +252,8 @@ const PROJECTS: Project[] = [
     accent: 'neon',
   },
   {
-    id: '19',
-    number: '19',
-    title: 'Finance Planner',
-    link: 'https://finance-planner-blond.vercel.app/',
-    mission: 'Help users plan finances with a clear, modern, and engaging experience.',
-    stack: ['React', 'TypeScript', 'UI Design'],
-    impact: 'Simplified financial planning and clearer decision-making',
-    accent: 'purple',
-  },
-  {
-    id: '20',
-    number: '20',
+    id: '17',
+    number: '17',
     title: 'AR_VR',
     link: 'https://ar-vr-xi.vercel.app/',
     mission: 'Create immersive experiences that blend spatial storytelling with interactive design.',
@@ -215,8 +262,8 @@ const PROJECTS: Project[] = [
     accent: 'cyan',
   },
   {
-    id: '21',
-    number: '21',
+    id: '18',
+    number: '18',
     title: 'Feather_fury',
     link: 'https://feather-fury.vercel.app/',
     mission: 'Deliver a bold, artistic concept with striking motion and visual identity.',
@@ -273,16 +320,27 @@ function ProjectRow({ project, index }: { project: Project; index: number }) {
         href={project.link}
         target="_blank"
         rel="noopener noreferrer"
-        className={`group relative flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8 px-6 py-6 lg:py-8 rounded-[24px] liquid-glass border border-white/5 ${ACCENT[project.accent].border} hover:bg-white/5 transition-all duration-500`}
+        className={`group relative flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8 px-6 py-6 lg:py-8 rounded-[24px] liquid-glass border transition-all duration-500 ${
+          project.featured
+            ? 'border-neon/40 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.12),_transparent_40%)] shadow-[0_0_40px_rgba(0,229,255,0.08)]'
+            : 'border-white/5 hover:bg-white/5'
+        } ${ACCENT[project.accent].border}`}
       >
         <span className={`font-grotesk text-[11px] uppercase tracking-widest opacity-40 lg:w-10 flex-shrink-0 ${ACCENT[project.accent].text}`}>
           {project.number}
         </span>
 
         <div className="flex-1 min-w-0">
-          <h3 className="font-grotesk text-cream uppercase text-[20px] sm:text-[26px] lg:text-[32px] leading-none tracking-tight">
-            {project.title}
-          </h3>
+          <div className="flex flex-wrap items-center gap-2">
+            <h3 className="font-grotesk text-cream uppercase text-[20px] sm:text-[26px] lg:text-[32px] leading-none tracking-tight">
+              {project.title}
+            </h3>
+            {project.featured && (
+              <span className="rounded-full border border-neon/30 bg-neon/10 px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.18em] text-neon">
+                Featured
+              </span>
+            )}
+          </div>
           <p className="font-mono text-cream/65 text-[11px] sm:text-[12px] uppercase leading-relaxed mt-2 max-w-[760px]">
             Mission: {project.mission}
           </p>
@@ -323,6 +381,8 @@ function ProjectRow({ project, index }: { project: Project; index: number }) {
 export default function Projects() {
   const headerRef = useRef<HTMLDivElement>(null);
   const headerInView = useInView(headerRef, { once: true, margin: '-10%' });
+  const featuredProjects = PROJECTS.filter((project) => project.featured);
+  const otherProjects = PROJECTS.filter((project) => !project.featured);
 
   return (
     <section id="projects" className="w-full bg-background py-20 lg:py-28">
@@ -336,7 +396,7 @@ export default function Projects() {
               variants={fadeUp}
               className="font-mono text-neon text-[11px] uppercase tracking-[0.25em] mb-3"
             >
-                - Selected projects
+              - Selected projects
             </motion.p>
             <motion.h2
               custom={1}
@@ -363,8 +423,74 @@ export default function Projects() {
           </motion.p>
         </div>
 
+        <div className="mb-10">
+          <div className="mb-6 flex items-center gap-4">
+            <span className="font-mono text-[11px] uppercase tracking-[0.28em] text-neon">Best of now</span>
+            <div className="h-px flex-1 bg-white/10" />
+          </div>
+
+          <div className="grid gap-4 lg:grid-cols-3">
+            {featuredProjects.map((project, i) => (
+              <motion.a
+                key={project.id}
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.08, duration: 0.5 }}
+                className="group relative overflow-hidden rounded-[28px] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.12),_rgba(12,13,17,0.72)_35%,_rgba(12,13,17,0.92)_100%)] p-5 shadow-[0_18px_50px_rgba(0,0,0,0.32)] transition-transform duration-300 hover:-translate-y-1"
+              >
+                <div className={`absolute inset-0 bg-gradient-to-br ${
+                  project.accent === 'neon' ? 'from-neon/20 via-transparent to-transparent' :
+                  project.accent === 'purple' ? 'from-[#b724ff]/20 via-transparent to-transparent' :
+                  'from-[#00e5ff]/20 via-transparent to-transparent'
+                }`} />
+
+                <div className="relative z-10 flex h-full flex-col">
+                  <div className="mb-6 flex items-center justify-between">
+                    <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-cream/55">{project.number}</span>
+                    <span className="rounded-full border border-white/10 bg-white/5 px-2 py-1 font-mono text-[9px] uppercase tracking-[0.18em] text-cream/80">
+                      Live
+                    </span>
+                  </div>
+
+                  <div className="mb-4 flex items-center gap-2 text-neon">
+                    <span className="h-2 w-2 rounded-full bg-current" />
+                    <span className="font-mono text-[10px] uppercase tracking-[0.22em]">Featured project</span>
+                  </div>
+
+                  <h3 className="font-grotesk uppercase text-[24px] leading-none tracking-tight text-cream">
+                    {project.title}
+                  </h3>
+
+                  <p className="mt-3 font-mono text-[11px] uppercase leading-relaxed text-cream/70">
+                    {project.mission}
+                  </p>
+
+                  <div className="mt-5 flex flex-wrap gap-2">
+                    {project.stack.map((tag) => (
+                      <span key={tag} className="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.12em] text-cream/75">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-4">
+                    <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-cream/55">{project.impact}</span>
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-cream transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
+                      <ArrowUpRight size={16} />
+                    </span>
+                  </div>
+                </div>
+              </motion.a>
+            ))}
+          </div>
+        </div>
+
         <div className="flex flex-col gap-4">
-          {PROJECTS.map((project, i) => (
+          {otherProjects.map((project, i) => (
             <ProjectRow key={project.id} project={project} index={i} />
           ))}
         </div>
