@@ -62,8 +62,8 @@ const PROJECTS: Project[] = [
   {
     id: '05',
     number: '05',
-    title: 'Stokio',
-    link: 'https://mystockio.vercel.app/login',
+    title: 'Stockio',
+    link: 'https://mystockio.vercel.app',
     mission: 'A modern stock and market platform experience with a clean dashboard, strong hierarchy, and clear actionable flow.',
     stack: ['React', 'Dashboard UX', 'Product Design'],
     impact: 'Conversion-ready market product UX',
